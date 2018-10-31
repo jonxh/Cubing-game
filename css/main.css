@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+body
+{
+  font-size: 13px;
+  font-family: 'Kanit', sans-serif;
+  background-color: #222;
+}
+
+#header
+{
+  height: 100px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: 'Black Ops One', serif;
+  font-size: 25px;
+  color:white;
+}
+
+#content
+{
+  min-width:280px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+#left-column
+{
+  min-width: 100px;
+  max-width: 180px;
+}
+
+#right-column
+{
+  min-width: 100px;
+  max-width: 180px;
+}
+
+/* Header Stuff */
+
+.header-logo
+{
+  margin:auto;
+}
+
+/* Left Column Stuff */
+
+.left-column-list a
+{
+  height:30px;
+  padding: 5px 10px;
+}
+
+.left-column-time-badge
+{
+  float:right;
+  font-size:0.9em;
+}
+
+/* Right Column Stuff */
+
+.right-column-profile
+{
+  text-align:left;
+}
+
+
+.right-column-profile-img
+{
+  text-align:center;
+}
+
+.right-column-profile-img img
+{
+  height:100px;
+  width:100px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.right-column-profile-info ol
+{
+  list-style-type: none;
+}
+
+.right-column-profile-info-title
+{
+  float:left;
+}
+
+.right-column-profile-info-value
+{
+  float:right;
+}
+
+.column-list-header
+{
+  border: 1px solid white;
+  margin-bottom: 2px;
+  height:30px;
+  padding: 5px 10px;
+}
